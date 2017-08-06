@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "easy-maps": "0.0.0",
-    "leaflet": "^1.1.0"
+    "leaflet": "^1.1.0",
+    "lodash": "^4.17.4"
   }
 }

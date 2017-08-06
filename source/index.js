@@ -5,4 +5,7 @@ import 'leaflet/dist/images/marker-icon.png';
 import 'leaflet/dist/images/marker-icon-2x.png';
 import 'leaflet/dist/images/marker-shadow.png';
 
-export * from './easy-map-leaflet';
+export const engineName = 'Leaflet';
+
+export {LeafletMap as Map} from './map';
+export {LeafletView as View} from './view';
