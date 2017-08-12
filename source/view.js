@@ -13,7 +13,7 @@ export class LeafletView extends EasyView {
             if (transition) {
                 this.animate({center}, {animate:true, duration: transition / 1000});
             } else {
-                this.panTo(center, {animate: false});
+                this.map.map.panTo(center, {animate: false});
             }
         }
     }
@@ -25,7 +25,7 @@ export class LeafletView extends EasyView {
                 if (transition) {
                     this.animate({zoom}, {animate:true});
                 } else {
-                    this.setZoom(zoom, {animate: false});
+                    this.map.map.setZoom(zoom, {animate: false});
                 }
             }
         }
