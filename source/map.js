@@ -8,7 +8,4 @@ export class LeafletMap extends EasyMap {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(this.map);
     }
-    get isMounted() {
-        return Boolean(this.map);
-    }
 }
